@@ -161,14 +161,14 @@ button:active { -webkit-tap-highlight-color: transparent }
 /* rainbow background effect */
 .rainbow {
   background: springgreen;
-  background: -webkit-linear-gradient(top, #21d 0%, #c1b 17%, #e00 33%, #de2 50%, #0d3 67%, #0ed 83%, #21d 100%);
+  background: -webkit-linear-gradient(top, #de2, #de2, #0d3, #0ed, #21d, #c1b, #e00, #de2, #de2);
 
   /* firefox is buggy */
-  /* background: linear-gradient(to bottom, #21d 0%, #c1b 17%, #e00 33%, #de2 50%, #0d3 67%, #0ed 83%, #21d 100%);*/
+  /* background: linear-gradient(to bottom, #de2, #de2, #0d3, #0ed, #21d, #c1b, #e00, #de2, #de2);*/
 
   background-size: 5555%;
-  -webkit-animation: rainbow 40s linear infinite;
-          animation: rainbow 40s linear infinite;
+  -webkit-animation: rainbow 33s linear infinite;
+          animation: rainbow 33s linear infinite;
 }
 @-webkit-keyframes rainbow { 100% { background-position: bottom } }
 @keyframes rainbow { 100% { background-position: bottom } }

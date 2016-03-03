@@ -6,3 +6,9 @@ http://johnchinjew.com
 
 ## Follow
 http://twitter.com/johnchinjew
+
+### Immediate todo
+ 1. add better than default favicon
+ 2. add atom orbital effect
+ 3. perfect link color (on hover)
+ 4. pull to master

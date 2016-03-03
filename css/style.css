@@ -30,6 +30,15 @@ a:hover {
   color: #ff0340
 }
 
+::selection {
+  background: #000;
+  color: #fff;
+}
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
 .main {
   margin: 0;
   padding: 1.9rem;

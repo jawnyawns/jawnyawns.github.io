@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  line-height: 2;
   position: absolute;
   left: 0;
   right: 0;
@@ -25,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #dd153a;
+  color: #ff0340;
 }
 
 .main {

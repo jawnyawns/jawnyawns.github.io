@@ -10,5 +10,4 @@ http://twitter.com/johnchinjew
 ### Immediate todo
  1. add better than default favicon
  2. add atom orbital effect
- 3. perfect link color (on hover)
- 4. onload effects (with slash, fade, and letters)
+ 3. onload effects (with slash, fade, and letters)

@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 *,
@@ -17,7 +18,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #c7d1d2;
+  background: #c3d0d3;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #ff0340;
+  color: #ff0340
 }
 
 .main {
@@ -40,7 +41,6 @@ a:hover {
   width: 100%;
   letter-spacing: 0.05rem;
   color: #fff;
-  -webkit-font-smoothing: antialiased;
 }
 
 .slash {

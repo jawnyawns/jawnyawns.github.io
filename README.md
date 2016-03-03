@@ -8,6 +8,8 @@ http://johnchinjew.com
 http://twitter.com/johnchinjew
 
 ### Immediate todo
- 1. add better than default favicon
  2. add atom orbital effect
  3. onload effects (with slash, fade, and letters)
+ 4. fix mobile highlight link
+ 5. add highlight theme
+ 6. fix theme color chrome top bar

@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#c7d1d2">
 
+  <link rel="icon" href="img/favicon.png">
+
 </head>
 <body>
 
@@ -23,6 +25,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
   <script>
     jQuery("#rh").fitText(1.7, { minFontSize: '12px', maxFontSize: '33px' });
+
+    // helps remove colored tap on mobile
+    document.addEventListener("touchstart", function(){}, true);
   </script>
 
 </body>

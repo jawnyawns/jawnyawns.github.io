@@ -1,187 +1,54 @@
-/* basic */
 html {
-  font-family: 'Lato', sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-align: center;
-  color: #fff;
   box-sizing: border-box;
 }
-body { margin: 0 }
-*, *:before, *:after { box-sizing: inherit }
 
-
-
-/* html5 */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #c7d1d2;
+}
 
-
-/* links */
 a {
   color: inherit;
   text-decoration: none;
-  background-color: transparent;
-  outline: 0;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-
-
-/* text */
-::selection { background: #fff; color: #000 }
-::-moz-selection { background: #fff; color: #000 }
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+a:hover {
+  color: #dd153a;
 }
-p,
-li {
-  line-height: 1.7;
-}
-li { margin-left: -1.5em }
 
-
-
-/* images */
-img { border: 0 }
-svg:not(:root) { overflow: hidden }
-
-
-
-/* ui */
-button {
-  color: inherit;
-  font: inherit;
+.main {
   margin: 0;
-  overflow: visible;
-  text-transform: none;
-  -webkit-appearance: button;
-  cursor: pointer
-}
-button::-moz-focus-inner { border: 0; padding: 0 }
-a:active,
-button:active { -webkit-tap-highlight-color: transparent }
-
-
-
-/* hero and footer styles */
-.big {
-  font-size: 1.375em;
-  padding: 30vh 2em;
-}
-.big__avatar {
-  display: inline-block;
-  border-radius: 100%;
-  width: 6.5em;
-  height: 6.5em;
-  padding: .5em;
-  border: 3px solid rgba(255,255,255,.5);
+  padding: 1.9rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0.05rem;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
-
-
-/* links styles */
-.links {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.links li { margin: 0 }
-.links__icon {
-  border-radius: 100%;
-  text-indent: -9999px;
-  display: inline-block;
-  width: 5em;
-  height: 5em;
-  margin: 3em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 65% 65%;
-  border: 3px solid rgba(255,255,255,.5);
-
-  -webkit-transition: background-color 140ms;
-          transition: background-color 140ms;
-}
-.links__icon:hover,
-.links__icon:focus,
-.links__icon:active {
-  background-color: #fff;
+.slash {
+  font-size: 4.5rem;
+  vertical-align: middle;
 }
 
-
-
-/* bio styles */
-.big__name {
-  font-family: 'lato', sans-serif;
-  font-size: 2.2em;
-}
-.big__code {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.2em;
-}
-.big__school {
-  font-family: 'Pacifico', sans-serif;
-  font-size: 1.3em;
-}
-.big__loc { font-size: 1.3em }
-
-
-
-/* icons */
-.codepen { background-image: url(../img/codepen.svg) }
-.twitter { background-image: url(../img/twitter.svg) }
-.soundcl { background-image: url(../img/soundcloud.svg) }
-.emailme { background-image: url(../img/mail.svg) }
-
-
-
-
-/* shadow effect */
-.shadow-t { text-shadow: 0 .15em 0 rgba(0,0,0,.2) }
-.shadow-t-s { text-shadow: 0 .08em 0 rgba(0,0,0,.2) }
-.shadow-b { box-shadow: 0 3.5px 0 rgba(0,0,0,.2) }
-
-
-
-/* rainbow background effect */
-.rainbow {
-  background: springgreen;
-  background: -webkit-linear-gradient(top, #de2, #de2, #0d3, #0ed, #21d, #c1b, #e00, #de2, #de2);
-
-  /* firefox is buggy */
-  /* background: linear-gradient(to bottom, #de2, #de2, #0d3, #0ed, #21d, #c1b, #e00, #de2, #de2);*/
-
-  background-size: 5555%;
-  -webkit-animation: rainbow 33s linear infinite;
-          animation: rainbow 33s linear infinite;
-}
-@-webkit-keyframes rainbow { 100% { background-position: bottom } }
-@keyframes rainbow { 100% { background-position: bottom } }
-
-
-
-/* smaller screens */
-@media screen and (max-width: 500px) {
-  html { font-size: 69% }
-  .links__icon:hover,
-  .links__icon:focus,
-  .links__icon:active {
-    -webkit-transition: none;
-            transition: none;
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 63%;
   }
 }

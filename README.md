@@ -1,5 +1,14 @@
 # johnchinjew.github.io
-Personal site (temporary) of John Chin-Jew ([@johnchinjew](http://twitter.com/johnchinjew)), a dev/designer from California. Currently working on getting a college acceptance letter.
+My temporary one-pager... More will come!
 
 ## Visit
 http://johnchinjew.com
+
+## Follow
+http://twitter.com/johnchinjew
+
+### Immediate todo
+ 1. add better than default favicon
+ 2. add atom orbital effect
+ 3. perfect link color (on hover)
+ 4. pull to master

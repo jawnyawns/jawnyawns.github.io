@@ -39,10 +39,11 @@ a:hover {
   width: 100%;
   letter-spacing: 0.05rem;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
 .slash {
-  font-size: 4.3rem;
+  font-size: 4.5rem;
   vertical-align: middle;
 }
 

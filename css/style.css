@@ -20,17 +20,11 @@ body {
   top: 0;
   bottom: 0;
   background: #bfd3d6;
-  -webkit-transition: opacity 370ms;
-          transition: opacity 370ms;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-a:hover {
-  color: #ff0340
 }
 
 ::selection {
@@ -54,6 +48,9 @@ a:hover {
   letter-spacing: .05rem;
   color: #fff;
   -webkit-font-smoothing: antialiased;
+
+  -webkit-transition: opacity 385ms;
+          transition: opacity 385ms;
 }
 
 .slash {

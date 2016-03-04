@@ -54,6 +54,8 @@ a:hover {
 
   -webkit-transition: opacity 385ms;
           transition: opacity 385ms;
+
+  white-space: nowrap;
 }
 
 .slash {

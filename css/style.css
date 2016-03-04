@@ -77,7 +77,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 630px) {
   html {
     font-size: 63%;
   }
@@ -85,7 +85,7 @@ a:hover {
     letter-spacing: 0;
   }
   .main__foot {
-    font-size: .5em;
+    font-size: .48em;
   }
   .sp {
     display: none;

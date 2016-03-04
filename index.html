@@ -24,7 +24,11 @@
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
   <script>
-    jQuery("#rh").fitText(1.7, { maxFontSize: '35px' });
+    document.body.className = "effect";
+    setTimeout(function() {
+      document.body.className = "";
+    }, 560);
+    jQuery("#rh").fitText(1.8, { maxFontSize: '35px' });
     document.addEventListener("touchstart", function(){}, true); // helps remove colored tap on mobile
   </script>
 

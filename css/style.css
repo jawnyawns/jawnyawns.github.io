@@ -12,13 +12,15 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.4;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   background: #c1d0d3;
+  -webkit-transition: opacity 370ms;
+          transition: opacity 370ms;
 }
 
 a {
@@ -41,7 +43,7 @@ a:hover {
 
 .main {
   margin: 0;
-  padding: 1.9rem;
+  padding: 1.9em;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -50,11 +52,18 @@ a:hover {
   width: 100%;
   letter-spacing: 0.05rem;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
 .slash {
   font-size: 2.29em;
   vertical-align: middle;
+}
+
+.effect {
+  opacity: 0;
+  -webkit-transition: none !important;
+          transition: none !important;
 }
 
 @media screen and (max-width: 560px) {

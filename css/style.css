@@ -79,4 +79,13 @@ a:hover {
   html {
     font-size: 63%;
   }
+  .main {
+    letter-spacing: 0;
+  }
+  .main__foot {
+    font-size: .5em;
+  }
+  .sp {
+    display: none;
+  }
 }

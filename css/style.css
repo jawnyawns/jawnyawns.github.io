@@ -50,7 +50,7 @@ a:hover {
           transform: translateY(-50%);
   text-align: center;
   width: 100%;
-  letter-spacing: 0.05rem;
+  letter-spacing: .04rem;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }

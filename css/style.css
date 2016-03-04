@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #00f
+  color: #04f
 }
 
 ::selection {
@@ -42,14 +42,13 @@ a:hover {
 
 .main {
   margin: 0;
-  padding: .3em;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-align: center;
   width: 100%;
-  letter-spacing: .125rem;
+  letter-spacing: .1rem;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 
@@ -70,7 +69,7 @@ a:hover {
 
 .main__foot {
   margin-top: .15rem;
-  font-size: .77rem;
+  font-size: .36em;
   opacity: .6;
   letter-spacing: .15rem;
   text-transform: uppercase;

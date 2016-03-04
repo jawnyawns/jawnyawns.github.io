@@ -19,12 +19,16 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #bfd3d6;
+  background: #bed3D6;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  color: #00f
 }
 
 ::selection {
@@ -38,14 +42,14 @@ a {
 
 .main {
   margin: 0;
-  padding: 1.9em;
+  padding: .3em;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-align: center;
   width: 100%;
-  letter-spacing: .05rem;
+  letter-spacing: .125rem;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 
@@ -62,6 +66,14 @@ a {
   opacity: 0;
   -webkit-transition: none !important;
           transition: none !important;
+}
+
+.main__foot {
+  margin-top: .15rem;
+  font-size: .77rem;
+  opacity: .6;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 560px) {

@@ -6,3 +6,6 @@ http://johnchinjew.com
 
 ## Follow
 http://twitter.com/johnchinjew
+
+## TODO
+  1. FIX: website may flicker on load

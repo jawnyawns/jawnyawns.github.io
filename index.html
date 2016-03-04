@@ -15,7 +15,7 @@
   <link rel="icon" href="img/favicon.png">
 
 </head>
-<body>
+<body id="particles-js">
 
   <h1 id="rh" class="main">
     <a class="melink" href="http://twitter.com/johnchinjew" title="John Chin-Jew on Twitter" target="_blank">@johnchinjew</a> <span class="slash">/</span> creative developer
@@ -28,9 +28,12 @@
     setTimeout(function() {
       document.body.className = "";
     }, 560);
-    jQuery("#rh").fitText(1.72, { maxFontSize: '35px' });
+    jQuery("#rh").fitText(1.7, { maxFontSize: '35px' });
     document.addEventListener("touchstart", function(){}, true); // helps remove colored tap on mobile
   </script>
+  <!-- particle effect -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/particlesjs-config.json"></script>
 
 </body>
 </html>

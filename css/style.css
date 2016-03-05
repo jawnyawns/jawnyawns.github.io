@@ -41,7 +41,7 @@ a:hover {
 }
 
 .main {
-  margin: -.185em 0 0;
+  margin: 0;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -70,11 +70,11 @@ a:hover {
 }
 
 .main__foot {
-  margin-top: .15rem;
-  font-size: .36em;
+  margin-top: -.33rem;
+  font-size: .4em;
   opacity: .6;
   letter-spacing: .15rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 @media screen and (max-width: 630px) {

@@ -1,5 +1,6 @@
 // fade in
 document.getElementById("rh").className = "main effect";
+document.querySelector(".js-hide").className = "";
 setTimeout(function() {
   document.getElementById("rh").className = "main";
 }, 750);

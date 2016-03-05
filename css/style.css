@@ -91,3 +91,7 @@ a:hover {
     display: none;
   }
 }
+
+.js-hide {
+  display: none;
+}

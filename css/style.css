@@ -19,7 +19,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #bed3D6;
+  background: #c0d1d3;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #04f
+  color: #00f
 }
 
 ::selection {
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .main {
-  margin: 0;
+  margin: -.4em 0 0;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
 
   <title>John Chin-Jew</title>
@@ -24,19 +24,19 @@
     </footer>
   </h1>
 
+  <!-- scripts -->
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
-  <script>
-    document.getElementById("rh").className = "main effect";
-    setTimeout(function() {
-      document.getElementById("rh").className = "main";
-    }, 750);
-    jQuery("#rh").fitText(1.8, { maxFontSize: '34px' });
-    document.addEventListener("touchstart", function(){}, true); // helps remove colored tap on mobile
-  </script>
+  <script src="js/script.js"></script>
+
   <!-- particle effect -->
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="js/particlesjs-config.json"></script>
+
+  <!-- tracking -->
+  <script>
+    !function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-66519522-2","auto"),ga("send","pageview");
+  </script>
 
 </body>
 </html>

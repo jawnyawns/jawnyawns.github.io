@@ -6,7 +6,7 @@ setTimeout(function() {
 }, 750);
 
 // fittext
-jQuery("#rh").fitText(1.8, { maxFontSize: '32.5px' });
+jQuery("#rh").fitText(1.8, { maxFontSize: '33px' });
 
 // OTHER
 document.addEventListener("touchstart", function(){}, true); // helps remove colored tap on mobile

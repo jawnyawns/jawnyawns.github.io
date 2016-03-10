@@ -1,51 +1,90 @@
 <!DOCTYPE html>
-<html lang="en-US" class="js-hide">
+<html lang="en-US">
 <head>
 
+
+
+  <!-- CONFIG
+  =============================================== -->
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="UTF-8">
+  <base target="_blank">
+
+
+
+  <!-- BASIC
+  =============================================== -->
   <title>John Chin-Jew</title>
   <meta name="description" content="John Chin-Jew (@johnchinjew) is a highschool dev + designer from California who cares about humans and technology.">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+
+
+  <!-- CSS
+  =============================================== -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+
+
+  <!-- MOBILE
+  =============================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#e5eaeb">
 
+
+
+  <!-- FAVICON
+  =============================================== -->
   <link rel="icon" href="img/favicon.png">
 
-  <!-- show html, if there is no js (it's hidden by default) -->
-  <noscript>
-    <style>
-      .js-hide {
-        display: block !important;
-      }
-    </style>
-  </noscript>
+
+
+  <!-- SOCIALS
+  =============================================== -->
+  <meta property="og:title" content="John Chin-Jew">
+  <meta property="og:site_name" content="John Chin-Jew">
+  <meta property="og:description" content="John Chin-Jew (@johnchinjew) is a highschool dev + designer from California who cares about humans and technology.">
+  <meta property="og:image" content="img/favicon.png">
+  <meta property="og:url" content="http://johnchinjew.com/">
+  <meta name="twitter:title" content="John Chin-Jew">
+  <meta name="twitter:site" content="@johnchinjew">
+  <meta name="twitter:description" content="John Chin-Jew (@johnchinjew) is a highschool dev + designer from California who cares about humans and technology.">
+  <meta name="twitter:image" content="img/favicon.png">
+
+
 
 </head>
 <body id="particles-js">
 
-  <h1 id="rh" class="main">
-    <a class="melink" href="http://twitter.com/johnchinjew" title="John Chin-Jew on Twitter" target="_blank">@johnchinjew</a><span class="sp"> </span><span class="slash">/</span><span class="sp"> </span>creative developer
-    <footer class="main__foot">
-      &copy; John Chin-Jew <span class="slash">/</span> <a href="mailto:hi@johnchinjew.com" title="Email John Chin-Jew">Email me</a>
-    </footer>
+
+
+  <!-- PAGE LAYOUT
+  =============================================== -->
+  <h1 class="big-words">
+    I'm John, a creative developer.
+    <br>
+    <a href="http://twitter.com/johnchinjew" title="John Chin-Jew on Twitter">Twitter.</a>
+    <a href="http://codepen.io/johnchinjew" title="John Chin-Jew on Codepen">Codepen.</a>
+    <a href="mailto:hi@johnchinjew.com" title="Email John Chin-Jew">Email.</a>
   </h1>
 
-  <!-- scripts -->
-  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
-  <script src="js/script.js"></script>
 
-  <!-- particle effect -->
+
+  <!-- PARTICLES
+  =============================================== -->
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="js/particlesjs-config.json"></script>
+  <script src="pjs-config.json"></script>
 
-  <!-- tracking -->
-  <script>
-    !function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-66519522-2","auto"),ga("send","pageview");
-  </script>
+
+
+  <!-- TRACKER
+  =============================================== -->
+  <script>!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-66519522-2","auto"),ga("send","pageview");</script>
+
+
+
+  <!-- CUSTOM TAP HIGHLIGHT COLOR
+  =============================================== -->
+  <script>document.addEventListener("touchstart",function(){},true)</script>
 
 </body>
 </html>

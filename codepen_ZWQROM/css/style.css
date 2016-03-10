@@ -1,0 +1,74 @@
+/* IMPORTS
+----------------------------------------------- */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css);
+
+
+
+/* GLOBALS
+----------------------------------------------- */
+@-ms-viewport{
+  width: device-width;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: "Karla", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+::-moz-selection {
+  background: #000;
+  color: #000;
+}
+
+
+
+/* CUSTOM
+----------------------------------------------- */
+.big-words {
+  position: fixed;
+  bottom: 0;
+  margin: 0 5% 10% 5%;
+  font-size: 4.5rem;
+}
+
+.big-words > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.big-words > a:nth-child(2) {
+  color: #304FFE;
+}
+
+.big-words > a:nth-child(3) {
+  color: #C6FF00;
+}
+
+.big-words > a:nth-child(4) {
+  color: #FF1744;
+}
+
+
+
+/* QUERIES
+----------------------------------------------- */
+@media screen and (max-width: 45rem) {
+  html {
+    font-size: 77%;
+  }
+}
+
+@media screen and (max-width: 20rem) {
+  html {
+    font-size: 55%;
+  }
+}

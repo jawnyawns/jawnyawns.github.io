@@ -1,5 +1,5 @@
 # John Chin-Jew
-> A temporary one-pager
+> Site under construction!
 
 ## Visit
 http://johnchinjew.com

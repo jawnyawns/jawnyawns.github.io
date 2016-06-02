@@ -16,6 +16,6 @@ http://johnchinjew.com
 - http://twitter.com/johnchinjew
 - http://codepen.io/johnchinjew
 - http://plus.google.com/+johnchinjew
-- http://soundcloud.com/johnchinjew **that's right I make beats :)**
+- http://soundcloud.com/johnchinjew *that's right I make beats :)*
 - http://medium.com/johnchinjew
 - http://hellopoetry.com/johnchinjew

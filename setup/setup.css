@@ -1,0 +1,37 @@
+/* viewport fix */
+@-ms-viewport {
+	zoom: 1;
+  width: device-width;
+}
+
+/* border-box is superior */
+
+html {
+  box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* links */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* text selection */
+
+::selection {
+  background: #000;
+  color: #FFF
+}
+
+::-moz-selection {
+  background: #000;
+  color: #FFF
+}

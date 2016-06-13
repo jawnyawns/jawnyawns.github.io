@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Karla', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Yantramanav', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   line-height: 1.5;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
@@ -70,9 +70,10 @@ a {
 }
 
 .hero__name {
-  font-size: 1.3em;
+  font-size: 1.35em;
   font-weight: 700;
   padding: .13em 0;
+  letter-spacing: .05em;
 }
 
 .hero__links {
@@ -98,7 +99,7 @@ a {
 }
 
 .hero__contact {
-  font-size: .72em;
+  font-size: .71em;
   margin-top: 3rem;
   background: #00F;
   padding: 1.1em .67em;
@@ -106,7 +107,8 @@ a {
   border-radius: 3px;
   box-shadow: none;
   border: #00F .175em solid;
-  box-shadow: .25em .25em 0 rgba(0,0,0,.2)
+  box-shadow: .25em .25em 0 rgba(0,0,0,.2);
+  letter-spacing: .06em;
 }
 
 .hero__contact:hover {

@@ -9,7 +9,12 @@ html {
   font-family: 'Yantramanav', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   line-height: 1.5;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+}
+
+::-moz-selection {
+  background: #00F;
+  color: #FFF;
 }
 
 ::selection {
@@ -29,7 +34,7 @@ body {
 header,
 main,
 footer {
-  display: block
+  display: block;
 }
 
 h1,
@@ -42,42 +47,57 @@ p {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #00F;
+  color: #03F;
   text-decoration: none;
   outline-width: 0 !important;
   box-shadow: 0 1px 0 blue;
 }
 
 .hero {
-  font-size: 1.48rem;
+  font-size: 1.2rem;
   padding: 1.62rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  min-height: 100vh
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 97vh;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.hero::before {
+.hero::after {
   content: '';
   display: block;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   background: #BCF;
-  height: 4px;
+  height: 1rem;
 }
 
 .hero__name {
-  font-size: 1.35em;
+  font-size: 1.38em;
   font-weight: 700;
   padding: .13em 0;
   letter-spacing: .05em;
 }
 
 .hero__links {
-  padding-bottom: .3em;
+  padding-bottom: .5em;
 }
 
 .hero__links__hidden-links {
@@ -94,27 +114,28 @@ a {
 }
 
 .hero__location {
-  opacity: .27;
+  opacity: .24;
   font-size: .98em;
 }
 
 .hero__contact {
-  font-size: .71em;
-  margin-top: 3rem;
-  background: #00F;
-  padding: 1.1em .67em;
+  font-size: .73em;
+  margin-top: 2rem;
+  background: #05F;
+  padding: .9em .7em;
   color: #FFF;
   border-radius: 3px;
   box-shadow: none;
-  border: #00F .175em solid;
-  box-shadow: .25em .25em 0 rgba(0,0,0,.2);
+  border: #05F .175em solid;
+  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.2);
   letter-spacing: .06em;
 }
 
 .hero__contact:hover {
   color: #00D;
   background: #DEF;
+  -webkit-transition: none;
   transition: none;
   border: #00C .175em solid;
-  box-shadow: .25em .25em 0 rgba(0,0,0,.1)
+  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.1);
 }

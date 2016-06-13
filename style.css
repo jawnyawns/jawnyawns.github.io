@@ -7,7 +7,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Yantramanav', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -125,19 +125,20 @@ a {
 .hero__contact {
   font-size: .75em;
   margin-top: 2rem;
-  background: #27F;
   padding: .9em .7em;
-  color: #FFF;
   border-radius: 3px;
   box-shadow: none;
-  border: #05F .175em solid;
   box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.2);
   letter-spacing: .06em;
+  color: #00D;
+  background: #DEF;
+  border: #00C .175em solid;
 }
 
 .hero__contact:hover {
-  color: #00D;
-  background: #DEF;
+  border: #05F .175em solid;
+  color: #FFF;
+  background: #27F;
   -webkit-transition: none;
   transition: none;
   border: #00C .175em solid;

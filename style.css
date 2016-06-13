@@ -73,7 +73,7 @@ a {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 97vh;
+  min-height: 95.5vh;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -89,15 +89,19 @@ a {
   height: 1rem;
 }
 
+.hero__img {
+  margin-bottom: .9em;
+}
+
 .hero__name {
-  font-size: 1.38em;
+  font-size: 1.43em;
   font-weight: 700;
-  padding: .13em 0;
+  padding: .16em 0;
   letter-spacing: .05em;
 }
 
 .hero__links {
-  padding-bottom: .5em;
+  /**/
 }
 
 .hero__links__hidden-links {
@@ -114,12 +118,12 @@ a {
 }
 
 .hero__location {
+  padding-top: .55em;
   opacity: .24;
-  font-size: .98em;
 }
 
 .hero__contact {
-  font-size: .73em;
+  font-size: .75em;
   margin-top: 2rem;
   background: #05F;
   padding: .9em .7em;

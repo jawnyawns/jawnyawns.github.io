@@ -105,7 +105,7 @@ a {
 }
 
 .hero__links__hidden-links {
-  display: none;
+  display: none;  /**/
 }
 
 .hero__links__trigger {
@@ -125,7 +125,7 @@ a {
 .hero__contact {
   font-size: .75em;
   margin-top: 2rem;
-  background: #05F;
+  background: #27F;
   padding: .9em .7em;
   color: #FFF;
   border-radius: 3px;
@@ -143,3 +143,13 @@ a {
   border: #00C .175em solid;
   box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.1);
 }
+
+.hero__links > span > a:nth-child(2) { color: #6B4; box-shadow: 0 1px 0 #6B4 }
+.hero__links > span > a:nth-child(4) { color: #1AF; box-shadow: 0 1px 0 #1AF }
+.hero__links > span > a:nth-child(6) { color: #83B; box-shadow: 0 1px 0 #83B }
+.hero__links > span > a:nth-child(8) { color: #F50; box-shadow: 0 1px 0 #F50 }
+.hero__links > span > a:nth-child(10) { color: #0A6; box-shadow: 0 1px 0 #0A6 }
+.hero__links > span > a:nth-child(12) { color: #366; box-shadow: 0 1px 0 #366 }
+.hero__links > span > a:nth-child(14) { color: #E21; box-shadow: 0 1px 0 #E21 }
+.hero__links > span > a:nth-child(16) { color: #D43; box-shadow: 0 1px 0 #D43 }
+.hero__links > span > a:nth-child(18) { color: #a87; box-shadow: 0 1px 0 #a87 }

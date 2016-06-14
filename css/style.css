@@ -75,7 +75,7 @@ a {
   margin: 0 auto;
 }
 
-.hero__img { margin-bottom: .9em }
+.hero__img { margin-bottom: 1em }
 
 .hero__name {
   font-size: 1.43em;
@@ -94,8 +94,8 @@ a {
 }
 
 .hero__contact {
-  font-size: .75em;
-  margin-top: 2rem;
+  font-size: .73em;
+  margin-top: 1.92rem;
   padding: .9em .7em;
   border-radius: 3px;
   box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.12);

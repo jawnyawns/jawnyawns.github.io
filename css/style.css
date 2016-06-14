@@ -27,9 +27,7 @@ html {
   color: #FFF;
 }
 
-body {
-  margin: 0;
-}
+body { margin: 0 }
 
 header,
 main,
@@ -89,9 +87,7 @@ a {
   height: 1rem;
 }
 
-.hero__img {
-  margin-bottom: .9em;
-}
+.hero__img { margin-bottom: .9em }
 
 .hero__name {
   font-size: 1.43em;
@@ -100,22 +96,9 @@ a {
   letter-spacing: .05em;
 }
 
-.hero__links {
-  /**/
-}
+.hero__links__hidden-links { display: none }
 
-.hero__links__hidden-links {
-  display: none;  /**/
-}
-
-.hero__links__trigger {
-  cursor: pointer;
-}
-
-.hero__links__trigger::after {
-  content: '.';
-  color: black;
-}
+.hero__links__trigger { cursor: pointer }
 
 .hero__location {
   padding-top: .55em;

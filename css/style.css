@@ -52,8 +52,8 @@ a {
 }
 
 .hero {
-  font-size: 1.165rem;
-  padding: 4rem 4.5vw;
+  font-size: 1.157rem;
+  padding: 5rem 4.5vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,7 +71,7 @@ a {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100vh;
+  min-height: 97vh;
   margin: 0 auto;
 }
 

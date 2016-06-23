@@ -11,32 +11,8 @@ html {
   -webkit-font-smoothing: antialiased
 }
 
-body { margin: 0 }
-
-h1,
-p {
+body {
   margin: 0;
-}
-
-h1 {
-  font-size: 1.03em;
-  font-weight: normal;
-  line-height: 1.3;
-}
-
-a {
-  background-color: transparent;
-  outline-width: 0 !important;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 .5px 0;
-  -webkit-text-decoration-skip: objects;
-}
-
-main {
-  display: block;
-  font-size: 1.6em;
-  padding: 4.5rem 1.57rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55,6 +31,32 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 99.5vh;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.03em;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+a {
+  background-color: transparent;
+  outline-width: 0 !important;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 .75px 0;
+  -webkit-text-decoration-skip: objects;
+}
+
+main {
+  display: block;
+  font-size: 1.5em;
+  padding: 4.5rem 1.5rem;
   margin: 0 auto;
 }
 
@@ -63,5 +65,3 @@ main > p > a:nth-child(2) { color: #00E0CF }
 main > p > a:nth-child(4) { color: #C4C4C4 }
 
 ::selection { background: #5764FF; color: white }
-
-@media screen and (max-width: 500px) { html { font-size: 80% } }

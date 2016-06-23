@@ -1,59 +1,40 @@
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+@import '//fonts.googleapis.com/css?family=Chivo';
+
+*, *:before, *:after { box-sizing: inherit }
+body { margin: 0 }
+::selection { background: blue; color: white }
 
 html {
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1.73;
+  font-family: 'Chivo', 'Arial', sans-serif;
+  line-height: 1.65;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-::-moz-selection {
-  background: #00F;
-  color: #FFF;
-}
-
-::selection {
-  background: #00F;
-  color: #FFF;
-}
-
-::-moz-selection {
-  background: #00F;
-  color: #FFF;
-}
-
-body { margin: 0 }
-
-header,
-main,
-footer {
-  display: block;
-}
-
 h1,
 p {
+  margin: 0;
+}
+
+h1 {
   font-size: 1em;
   font-weight: normal;
-  margin: 0;
 }
 
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  color: #03F;
-  text-decoration: none;
   outline-width: 0 !important;
-  box-shadow: 0 1px 0 blue;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 .5px 0;
+  -webkit-text-decoration-skip: objects;
 }
 
-.hero {
-  font-size: 1.1rem;
-  padding: 5rem 4.5vw;
+main {
+  display: block;
+  font-size: 1.35em;
+  padding: 4.5rem 4.5vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,45 +52,10 @@ a {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 97vh;
+  min-height: 99.9vh;
   margin: 0 auto;
 }
 
-.hero__img { margin: 0 0 1em -.247em; }
-
-.hero__name {
-  font-size: 1.43em;
-  font-weight: 700;
-  padding: .16em 0;
-  letter-spacing: .05em;
-}
-
-.hero__links__hidden-links { display: none }
-
-.hero__links__trigger { cursor: pointer }
-
-.hero__location {
-  padding-top: .55em;
-  opacity: .24;
-}
-
-.hero__contact {
-  font-size: .79em;
-  margin-top: 2rem;
-  padding: .9em .7em;
-  border-radius: 3px;
-  box-shadow: 0.25em 0.25em 0 rgba(0, 0, 0, 0.12);
-  letter-spacing: .08em;
-  color: #00D;
-  background: #DEF;
-  border: #00C .175em solid;
-}
-
-.hero__contact:hover {
-  border: #05F .175em solid;
-  color: #FFF;
-  background: #27F;
-  -webkit-transition: none;
-  transition: none;
-  border: #00C .175em solid;
-}
+main > p > a:nth-child(1) { color: #5764FF }
+main > p > a:nth-child(2) { color: #00E0CF }
+main > p > a:nth-child(4) { color: #C4C4C4 }

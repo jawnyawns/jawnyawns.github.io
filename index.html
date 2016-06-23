@@ -4,19 +4,67 @@
     <meta charset='utf-8'>
     <title>John Chin-Jew</title>
     <meta name='description' content='The digital manifesto of creative developer John Chin-Jew.'>
-    <link rel='stylesheet' href='css/style.css'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='theme-color' content='#fff'>
     <base target='_blank'>
+    <style>
+      @import '//fonts.googleapis.com/css?family=Roboto+Mono:400,500';
+      *, *:before, *:after { box-sizing: inherit }
+      html {
+        box-sizing: border-box;
+        font-family: 'Roboto Mono', monospace;
+        line-height: 1.9;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased
+      }
+      body {
+        min-height: 100vh;
+        display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+        -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+        -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center
+      }
+      body, h1, p { margin: 0 }
+      h1 {
+        font-size: 1.1em;
+        font-weight: 500;
+        line-height: 1.55
+      }
+      a {
+        background-color: transparent;
+        outline-width: 0 !important;
+        text-decoration: none;
+        box-shadow: 0 1px 0;
+        -webkit-text-decoration-skip: objects
+      }
+      main {
+        display: block;
+        font-size: 1.3em;
+        font-size: calc(.85em + .85vmin);
+        padding: 4.5rem 1.2rem
+      }
+      main > p > a:nth-child(1) { color: #5764ff }
+      main > p > a:nth-child(2) { color: #00e0cf }
+      main > p > a:nth-child(4) { color: #b7babe }
+    </style>
   </head>
   <body>
     <main>
-      <h1>John Chin-Jew</h1>
+      <h1>John Chin-Jew:</h1>
       <p>
         <a href='//codepen.io/johnchinjew'>Creative developer</a>.
         <a href='//twitter.com/johnchinjew'>And other things</a>.
         <br>
-        <a href='mailto:hi@johnchinjew.com'>Reach me.</a>
+        <a href='mailto:hi@johnchinjew.com'>Reach me</a>.
       </p>
     </main>
     <script async src='//google-analytics.com/analytics.js'></script>

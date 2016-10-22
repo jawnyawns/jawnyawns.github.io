@@ -1,0 +1,28 @@
+{
+  "comic": [
+    {
+      "id": 0,
+      "title": "Advertisement",
+      "date": "0/0/0",
+      "note": "C'mon, just click it! We haven't eaten in weeks!"
+    },
+    {
+      "id": 1,
+      "title": "Alternate Universe",
+      "date": "2/7/2008",
+      "note": "Spiders are scary and stuff..."
+    },
+    {
+      "id": 2,
+      "title": "Goto",
+      "date": "8/8/2010",
+      "note": "Such program. Much code."
+    },
+    {
+      "id": 3,
+      "title": "This 'ol thing",
+      "date": "8/9/2016",
+      "note": "The great WORLD WIDE WEB!!"
+    }
+  ]
+}

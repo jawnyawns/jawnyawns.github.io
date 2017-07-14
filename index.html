@@ -3,32 +3,80 @@
   <head>
     <meta charset="UTF-8">
     <title>John Chin-Jew</title>
+    <meta name="description" content="The digital manifesto of creative developer John Chin-Jew.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="theme-color" content="#4A43FF">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.png">
+
+    <meta property="og:title" content="John Chin-Jew">
+    <meta property="og:description" content="The digital manifesto of creative developer John Chin-Jew.">
+    <meta property="og:image" content="https://johnchinjew.com/img/thumbnail.png">
+    <meta property="og:url" content="https://johnchinjew.com">
+    <meta property="og:site_name" content="John Chin-Jew">
+    <meta name="twitter:card" content="summary">
+
     <meta content="The digital manifesto of creative developer John Chin-Jew." name="description">
     <meta content="#0029f1" name="theme-color">
-    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="favicon.png" rel="icon">
     <base target="_blank">
   </head>
   <body>
-    <main>
-      <h1>John Chin-Jew:</h1>
-      <p>
-        <a href=http://wavalab.com>Working on Wavalab</a>.
-        <span id=more>& Other things</span>.
-        <br><a href=mailto:hi@johnchinjew.com>hi@johnchinjew.com</a><span style=padding-left:.2em>¬</span>
-      </p>
+    <header class="hero">
+      <div class="hero__inner">
+        <h2 class="hero__inner__pre-title">
+          <nobr>John Chin-Jew.</nobr>
+          <nobr>Student & developer from Ca.</nobr>
+        </h2>
+        <h1 class="hero__inner__title">
+          Creating digital goodness for non-digital humans.
+        </h1>
+      </div>
+      <div class="hero__carrot"></div>
+    </header>
+    <main class="main">
+      <div class="table clearfix">
+        <a href="http://composure.johnchinjew.com" style="background:url(img/composure.png)">
+          <h2>Composure</h2>
+          <p>A pure, super-minimal text editor.</p>
+        </a>
+        <a href="http://splink.johnchinjew.com" style="background:url(img/splink.png)">
+          <h2>Splink</h2>
+          <p>Combine multiple URLs into one convenient shortened link.</p>
+        </a>
+        <a href="http://wavalab.com" style="background:url(img/wavalab.png)">
+          <h2>Wavalab</h2>
+          <p>Game company in the making!</p>
+        </a>
+        <a href="http://johnchinjew.com/ragehack/" style="background:url(img/ragehack.png)">
+          <h2>Rage Hack</h2>
+          <p>It's you against the world.</p>
+        </a>
+        <a href="http://johnchinjew.com/wordsmoosh/" style="background:url(img/wordsmoosh.png)">
+          <h2>Wordsmoosh</h2>
+          <p>Generate hybrid words! Yay!</p>
+        </a>
+        <a href="https://github.com/johnchinjew/cl.js" style="background:url(img/cljs.png)">
+          <h2>cl.js</h2>
+          <p>console.log at the speed of light! </p>
+        </a>
+        <a href="http://pushquick.johnchinjew.com" style="background:url(img/pushquick.png)">
+          <h2>Pushquick</h2>
+          <p>Send yourself instant push notifications: notes, reminders, anything.</p>
+        </a>
+      </div>
     </main>
-
-    <div id="particles-js" class="rotating"></div>
-
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="js/script.js"></script>
-    <script async src=http://google-analytics.com/analytics.js></script>
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)}, ga.l=+new Date,ga("create","UA-66519522-2","auto"),ga("send", "pageview")
-      document.getElementById("more").addEventListener("click", function(){this.innerHTML="<a href=http://twitter.com/johnchinjew>Twitter</a><span>.</span> <a href=http://codepen.io/johnchinjew>CodePen</a><span>.</span> <a href=http://github.com/johnchinjew>GitHub</a><span>.</span> <a href=http://medium.com/@johnchinjew>Medium</a><span>.</span> <a href=http://soundcloud.com/johnchinjew/tracks>SoundCloud</a><span>.</span> <a href=http://instagram.com/johnchinjew>Instagram</a>"})
-    </script>
+    <footer class="footer">
+      <p>
+        <a href="https://twitter.com/johnchinjew">@johnchinjew</a>
+        <br>
+        <a href="mailto:hi@johnchinjew.com">hi@johnchinjew.com</a>
+      </p>
+    </footer>
   </body>
 </html>

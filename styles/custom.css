@@ -1,17 +1,18 @@
 ::-moz-selection {
-  background: #8319ff; color: #fff; }
+  background: #2979ff; color: #fff; }
 ::selection {
-  background: #8319ff; color: #fff; }
+  background: #2979ff; color: #fff; }
 ::-moz-selection {
-  background: #8319ff; color: #fff; }
-.thm { color: #8319ff; }
-.bg-thm { background-color: #868cff; }
-.acc { color: #f92d7e; }
+  background: #2979ff; color: #fff; }
+.bg-grad { background: #5292ff;
+background: -webkit-linear-gradient(to left, #6d69f2, #5292ff);
+background: linear-gradient(to left, #6d69f2, #5292ff);}
+.acc { color: #ec407a; }
 .f00 { font-size: 1em; }
 .vh-85 { height: 85vh; }
 .top-vh-85 { top: 85vh; }
 .w-3em { width: 3em; }
-.nt-1p5em { margin-top: -1.5em; }
+.nt-1p5em { margin-top: -1.95em; }
 .lh-big { line-height: 1.85; }
 .nt-p84em { margin-top: -0.84em; }
 .ul > li { margin-left: -0.75em; }
@@ -25,9 +26,9 @@
   display: block;
   position: absolute;
   width: 100%;
-  -webkit-transition: height 200ms;
-  transition: height 200ms;
-  background-color: #868cff;
+  -webkit-transition: height 200ms, opacity 200ms;
+  transition: height 200ms, opacity 200ms;
+  background-color: #2979ff;
   opacity: .67;
   height: 0.45em; bottom: 0.3em; }
-.lnk:hover::after { height: 1.15em; }
+.lnk:hover::after { height: 1.15em; opacity: .4; }

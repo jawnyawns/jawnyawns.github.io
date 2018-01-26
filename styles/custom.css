@@ -5,8 +5,8 @@
 ::-moz-selection {
   background: #2979ff; color: #fff; }
 .bg-grad { background: #5292ff;
-background: -webkit-linear-gradient(to left top, #7069f2, #5296ff);
-background: linear-gradient(to left top, #7069f2, #5296ff);}
+background: -webkit-linear-gradient(to left top, #8069f2, #5296ff);
+background: linear-gradient(to left top, #8069f2, #5296ff);}
 .acc { color: #f03488; }
 .f00 { font-size: 1em; }
 .vh-85 { height: 85vh; }

@@ -32,3 +32,4 @@ background: linear-gradient(to left top, #8069f2, #5296ff);}
   opacity: .67;
   height: 0.45em; bottom: 0.3em; }
 .lnk:hover::after { height: 1.15em; opacity: .4; }
+.mw46 { max-width: 46rem; }

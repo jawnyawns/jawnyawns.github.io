@@ -15,28 +15,36 @@ body {
 .sans { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
 .line { line-height: 1.5; }
 
-.maxw { max-width: 50rem; }
-.auto { margin: 0 auto; }
+.maxw { max-width: 52rem; }
 
 .fi { font-size: inherit; }
 .f1 { font-size: 2rem; }
 .f2 { font-size: 1.5rem; }
 .f3 { font-size: 1.25rem; }
 .b { font-weight: bold; }
-
-@media screen and (min-width: 38rem) {
-  .f1l { font-size: 2rem; }
-  .f2l { font-size: 1.5rem; }
-  .f3l { font-size: 1.25rem; }
-}
+.op50 { opacity: 0.5; }
 
 .m0 { margin: 0; }
 .mb1 { margin-bottom: 1rem; }
+
 .p0 { padding: 0; }
+
 .pl1 { padding-left: 1rem; }
+.pl4 { padding-left: 4rem; }
+
 .pr1 { padding-right: 1rem; }
+.pr4 { padding-right: 4rem; }
+
 .pt6 { padding-top: 6rem; }
 .pb6 { padding-bottom: 6rem; }
+
+@media screen and (min-width: 42rem) {
+  .f1l { font-size: 2rem; }
+  .f2l { font-size: 1.5rem; }
+  .f3l { font-size: 1.25rem; }
+  .pl4l { padding-left: 4rem; }
+  .pr4l { padding-right: 4rem; }
+}
 
 .link {
   color: #5921FF;

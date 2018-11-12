@@ -17,18 +17,19 @@ html {
 .f1 { font-size: 1.5rem; }
 .f2 { font-size: 1.25rem; }
 .f3 { font-size: 1.125rem; }
+
 .b6 { font-weight: 600; }
 .b7 { font-weight: 700; }
 
 .m0 { margin: 0; }
-.mb1 { margin-bottom: 1rem; }
+.mb1 { margin-bottom: 1.125rem; }
 
 .p0 { padding: 0; }
 
-.pl1 { padding-left: 1rem; }
+.pl1 { padding-left: 1.125rem; }
 .pl4 { padding-left: 4rem; }
 
-.pr1 { padding-right: 1rem; }
+.pr1 { padding-right: 1.125rem; }
 .pr4 { padding-right: 4rem; }
 
 .pt6 { padding-top: 6rem; }
@@ -39,6 +40,7 @@ html {
   .f1l { font-size: 1.5rem; }
   .f2l { font-size: 1.25rem; }
   .f3l { font-size: 1.125rem; }
+
   .pl4l { padding-left: 4rem; }
   .pr4l { padding-right: 4rem; }
 }
@@ -65,6 +67,6 @@ html {
   position: absolute;
   top: 6rem;
   background: black;
-  width: 3.25rem;
+  width: 2.875rem;
   height: 0.1875rem;
 }

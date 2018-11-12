@@ -1,0 +1,83 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  color: #29212F;
+  background: #FDFAFF;
+}
+
+.wrap {
+  max-width: 38rem;
+  padding: 0 1rem 3rem;
+}
+
+.chunk {
+  font-weight: bold;
+}
+
+.chunk h1 {
+  font-size: inherit;
+  margin: 0;
+}
+
+.chunk-title {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 3rem 0 0;
+  opacity: 0.5;
+}
+
+.chunk-body {
+  padding: 7rem 0 4rem;
+  font-size: 1.25rem;
+}
+
+.chunk-body p {
+  margin: 0;
+}
+
+.chunk-body a {
+  color: inherit;
+  text-decoration: none;
+  color: #5921FF;
+}
+
+.chunk-body a:hover {
+  box-shadow: 0 3px 0 0;
+}
+
+.chunk-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chunk-body li {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .wrap {
+    max-width: 48rem;
+    padding-left: 4rem;
+  }
+  .chunk-title {
+    font-size: 1.5rem;
+  }
+  .chunk-body {
+    font-size: 1.5rem;
+  }
+  .chunk-body {
+    padding: 10rem 0 7rem
+  }
+}

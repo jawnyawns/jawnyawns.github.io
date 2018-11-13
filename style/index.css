@@ -9,40 +9,38 @@ html {
 }
 
 .sans { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
-.line { line-height: 1.5; }
+.lh { line-height: 1.5; }
 
-.maxw { max-width: 52rem; }
+.mxw { max-width: 55rem; }
+.auto { margin: 0 auto; }
 
 .f0 { font-size: 2rem; }
 .f1 { font-size: 1.5rem; }
 .f2 { font-size: 1.25rem; }
-.f3 { font-size: 1.125rem; }
 
 .b6 { font-weight: 600; }
-.b7 { font-weight: 700; }
 
 .m0 { margin: 0; }
 .mb1 { margin-bottom: 1.125rem; }
 
 .p0 { padding: 0; }
 
-.pl1 { padding-left: 1.125rem; }
-.pl4 { padding-left: 4rem; }
+.pl1 { padding-left: 1rem; }
+.pl2 { padding-left: 2rem; }
 
-.pr1 { padding-right: 1.125rem; }
-.pr4 { padding-right: 4rem; }
+.pr1 { padding-right: 1rem; }
+.pr2 { padding-right: 2rem; }
 
 .pt6 { padding-top: 6rem; }
 .pb6 { padding-bottom: 6rem; }
 
-@media screen and (min-width: 39rem) {
+@media screen and (min-width: 36rem) {
   .f0l { font-size: 2rem; }
   .f1l { font-size: 1.5rem; }
   .f2l { font-size: 1.25rem; }
-  .f3l { font-size: 1.125rem; }
 
-  .pl4l { padding-left: 4rem; }
-  .pr4l { padding-right: 4rem; }
+  .pl2l { padding-left: 2rem; }
+  .pr2l { padding-right: 2rem; }
 }
 
 .link {

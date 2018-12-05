@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
 }
 
+.black { color: #222; }
 .sans { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
 .lh { line-height: 1.5; }
 

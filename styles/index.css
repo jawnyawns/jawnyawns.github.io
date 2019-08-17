@@ -12,7 +12,7 @@ html {
 .sans { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
 .lh { line-height: 1.5; }
 
-.maxw { max-width: 54rem; }
+.maxw { max-width: 48rem; }
 .auto { margin: 0 auto; }
 
 .f0 { font-size: 2rem; }

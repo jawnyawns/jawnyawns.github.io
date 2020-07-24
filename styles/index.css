@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: rgb(32, 33, 36);
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  padding-right: 48px;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 100%;
+}
+
+.width {
+  max-width: 386px;
+  margin: 0 auto;
+}
+
+.column {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.me {
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/me.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  margin: 0 8px;
+}
+
+.message {
+  margin: 0 0 1px 0;
+  padding: 10px 12px;
+  background-color: rgb(241, 243, 244);
+  display: table;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.message:first-of-type {
+  border-top-left-radius: 20px;
+}
+
+.message:last-of-type {
+  border-bottom-left-radius: 20px;
+  margin: 0;
+}

@@ -11,9 +11,9 @@ html {
 body {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.45;
-  color: rgb(32, 33, 36);
+  color: rgb(63, 64, 67);
 }
 
 a {
@@ -21,17 +21,15 @@ a {
 }
 
 main {
-  padding-right: 48px;
-
+  padding-right: 54px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
   width: 100%;
 }
 
 .width {
-  max-width: 386px;
+  max-width: 510px;
   margin: 0 auto;
 }
 
@@ -41,30 +39,30 @@ main {
 }
 
 .me {
-  width: 40px;
-  height: 40px;
+  width: 54px;
+  height: 54px;
   background-image: url("/images/me.jpg");
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 27px;
   margin: 0 8px;
 }
 
 .message {
-  margin: 0 0 1px 0;
-  padding: 10px 12px;
+  margin: 0 0 2px 0;
+  padding: 14px 20px;
   background-color: rgb(241, 243, 244);
   display: table;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 
 .message:first-of-type {
-  border-top-left-radius: 20px;
+  border-top-left-radius: 27px;
 }
 
 .message:last-of-type {
-  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 27px;
   margin: 0;
 }

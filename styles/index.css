@@ -22,6 +22,10 @@ a {
   color: rgb(66, 133, 244);
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 main {
   padding-right: 54px;
   position: absolute;

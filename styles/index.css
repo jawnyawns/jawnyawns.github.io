@@ -47,7 +47,7 @@ main {
 .me {
   width: 54px;
   height: 54px;
-  background-image: url("/images/me.jpg");
+  background-image: url("/images/me.png");
   background-size: cover;
   border-radius: 27px;
   margin: 0 8px;

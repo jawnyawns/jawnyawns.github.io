@@ -20,6 +20,7 @@ a {
   color: inherit;
   text-decoration: none;
   color: rgb(66, 133, 244);
+  white-space: nowrap;
 }
 
 a:hover {
@@ -35,7 +36,7 @@ main {
 }
 
 .width {
-  max-width: 508px;
+  max-width: 470px;
   margin: 0 auto;
 }
 
@@ -45,11 +46,11 @@ main {
 }
 
 .me {
-  width: 54px;
-  height: 54px;
-  background-image: url("/images/me.png");
+  width: 60px;
+  height: 60px;
+  background-image: url("/images/me.jpg");
   background-size: cover;
-  border-radius: 27px;
+  border-radius: 60px;
   margin: 0 8px;
 }
 

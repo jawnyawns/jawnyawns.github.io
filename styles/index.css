@@ -13,22 +13,19 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 1.45;
-  color: rgba(63, 64, 67);
+  color: rgba(87, 96, 106);
 }
 
 a {
   color: inherit;
+  color: rgb(0, 105, 216);
   text-decoration: none;
-  color: rgb(66, 133, 244);
   white-space: nowrap;
-}
-
-a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid;
 }
 
 main {
-  padding-right: 54px;
+  padding-right: 64px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -46,18 +43,19 @@ main {
 }
 
 .me {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   background-image: url("/images/me.jpg");
   background-size: cover;
-  border-radius: 60px;
+  background-position: center center;
+  border-radius: 48px;
   margin: 0 8px;
 }
 
 .message {
   margin: 0 0 2px 0;
   padding: 12px 20px;
-  background-color: rgb(241, 243, 244);
+  background-color: rgb(244, 247, 249);
   display: table;
   border-top-right-radius: 27px;
   border-bottom-right-radius: 27px;

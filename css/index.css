@@ -32,7 +32,7 @@ a {
 }
 
 main {
-  padding-right: 8px;
+  padding-right: 16px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -40,7 +40,7 @@ main {
 }
 
 .width {
-  max-width: 370px;
+  max-width: 360px;
   margin: 0 auto;
 }
 

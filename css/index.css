@@ -32,7 +32,7 @@ a {
 }
 
 main {
-  padding-right: 64px;
+  padding-right: 8px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

@@ -52,7 +52,7 @@ main {
 .me {
   width: 48px;
   height: 48px;
-  background-image: url("/img/me.jpg");
+  background-image: url("/img/me.png");
   background-size: cover;
   background-position: center center;
   border-radius: 48px;

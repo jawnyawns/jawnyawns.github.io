@@ -7,3 +7,7 @@
 ```
 python3 -m http.server
 ```
+
+---
+
+© John Chin-Jew. All rights reserved.
